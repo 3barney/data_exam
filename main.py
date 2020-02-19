@@ -27,3 +27,5 @@ recordsTransform.transform()
 # ● The average
 # ● The median
 # For each of the currencies against the EUR for the current day.
+
+## Execute the summary_view.sql
