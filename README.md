@@ -1,30 +1,44 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Data Engineer example
+Task to test ETL process on a given exchange rates api
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Python3
+Postgresql
+virtualenv
+pip
 ```
+
+Ensure python3 is available, if not install
+``` python3 -V ```
+
+Install pip if not available
+``` easy_install pip3 ```
+
+Install virtualenv 
+``` pip install virtualenv ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Create a virtualenv propject
+``` virtualenv data_engineer -p python3.7 ```
 
-Say what the step will be
+Navigate to 
+Create a local python3 virtual environment
+
+Clone project from github
 
 ```
-Give the example
+    git clone git@github.com:3barney/data_exam.git
 ```
 
-And repeat
 
 ```
 until finished
